@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Module 2 Assignment</title>
+	<style>
+		body
+		{
+
+		font-family:'Roboto', sans-serif;
+		box-sizing:border-box;
+		padding:0px;
+		margin:0px;
+		background-color: grey;
+
+
+		}
+		h1
+		{
+			font-size: 175%;
+			text-align:center;
+		}
+		.test{
+			background-color: green;
+		}
+
+
+
+		
+		section 
+		{
+			font-size:125%;
+			
+			float:left;
+			/*background-color: gray;*/
+			margin:1px;
+			box-sizing: border-box;
+			border: 2px solid black;
+			margin-left: 1px;
+			margin-right: 1px;
+
+
+		}
+		@media(min-width: 992px)
+		{
+			.myclass
+			{
+				width:33%;
+
+			}
+		}
+	
+		@media(min-width: 768px) and (max-width: 991px)
+		{
+			.myclass1
+			{
+				width:49%;
+				margin-right:5px;
+				margin-bottom: 5px;
+			}
+			.myclass2
+			{
+				width:100%;
+			}
+
+		}
+		@media(max-width: 767px)
+		{
+			.myclass3
+			{
+				width:100%;
+			}
+		}
+		
+
+
+
+
+
+		span
+
+		{
+			display:inline-block;
+			margin:0px;
+			float: right;
+		
+			padding-left: 10px;
+			padding-right: 10px;
+			padding-top: 3px;
+			padding-bottom: 3px;
+			border: 2px solid black;
+
+
+		}
+		#name1
+		{
+
+		background-color: #ffcccc;	
+		}
+		#name2
+		{
+			background-color: #d9534f;
+		}
+		#name3
+		{
+			background-color:#f0e68c ;
+		}
+		p
+		{
+			padding-top:4%;
+
+		}
+	</style>
+</head>
+<body>
+<h1>Menu</h1>
+<section class="myclass myclass1 myclass3">
+	<span  id="name1" >
+	Chicken</span>
+	<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+</section>
+
+<section class="myclass myclass1 myclass3">
+	<span  id="name2">
+	Beef</span>
+	<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+</section>
+<section class="myclass myclass2 myclass3">
+	<span id="name3">
+	Sushi</span>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  </p>
+</section>
+</body>
+</html>
